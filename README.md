@@ -119,9 +119,9 @@ need to be changed for your database or system configuration or to
 account for changes in URLs or other settings provided.
 
 The student demographics file may contain values such as N<10 or
->95% in fields that are otherwise numeric. The configuration file
+&gt;95% in fields that are otherwise numeric. The configuration file
 provides settings called Replacement for n<10 and Replacement for
->95% to allow you to specify the numeric values that should replace
+&gt;95% to allow you to specify the numeric values that should replace
 these non-numeric expressions.
 
 ## Running the program
