@@ -1,0 +1,21 @@
+# Configuration file for demographics_etl.py
+Data Folder Name: data
+Database:
+    Driver: ODBC Driver 13 for SQL Server
+    Server: DESKTOP-7SJSLM5\MSSQLSERVER2016
+    Name: demographics
+    Username: demographics_user
+    Schema: demographics.dbo
+Staging Student Table Name: StageStudentDemographics
+Staging Staff Table Name: StageStaffDemographics
+Staging School Geography Table Name: StageSchoolGeography
+Student Demographics URL: http://reportcard.ospi.k12.wa.us/Reports/2017/1_2_Demographic%20Information%20by%20School.txt
+Staff Demographics URL: http://www.k12.wa.us/safs/PUB/PER/1617/2016-2017_Final_S-275_Personnel_Database.accdb
+School Geography URL: https://opendata.arcgis.com/datasets/365b0f50792c4bf6b06fc134d0494231_107.csv
+Source Staff Table Name: 2016-2017S275FinalForPublic
+Replacement for n<10: 9
+Replacement for >95%: 96
+School District IDs:
+- 17408
+- 17415
+- 17403
