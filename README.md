@@ -96,6 +96,12 @@ and run the scripts provided in the scripts folder.
 Create a database user called demographics_user (or a name that
 you prefer) that the program will be able to use for loading data.
 
+Run the scripts provided in the database_scripts folder in order
+to create tables, views, and stored procedures and grant the database
+user access to them. The TruncateTables.sql script is optional, and
+may be used if you wish to clear all data from tables before loading
+new data.
+
 Use keyring at the command line to store the password of the database
 user safely. The command below calls keyring to store a password for
 demographics_user in the database named demographics:
